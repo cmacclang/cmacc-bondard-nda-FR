@@ -1,0 +1,8 @@
+// This section number
+$ Xnum = "Xnum";
+
+$ confid_Jurisdiction = "confid_Jurisdiction";
+
+$ confid_Law = "confid_Law";
+
+{{Xnum}}.Cet Accord est entièrement soumis {{confid_Law}}.  Tous litiges entre parties relèvent de la compétence exclusive {{confid_Jurisdiction}}.
