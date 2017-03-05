@@ -56,7 +56,9 @@ $ confid_Jurisdiction = "des tribunaux de Paris";
 
 // Signature
 
-$ sign_Place = "sign_Place";
+$ party1_Sign_Place = "sign_Place";
+
+$ party2_Sign_Place = "sign_Place";
 
 $ sign_Date = "sign_Date";
 
@@ -177,7 +179,7 @@ Le présent document (ci-après « l’Accord ») a pour objet de conserver le c
 
 {{law}}
 
-Fait à Paris et à {{sign_Place}}, le {{sign_Date}}
+Fait à {{party1_Sign_Place}} et à {{party2_Sign_Place}}, le {{sign_Date}}
 
 (Nom, prénom, adresse, qualité et signature précédée de la mention manuscrite « lu et approuvé »)
 

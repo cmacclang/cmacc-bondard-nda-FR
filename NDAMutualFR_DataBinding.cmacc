@@ -56,7 +56,9 @@ $ confid_Jurisdiction = "des tribunaux de Paris";
 
 // Signature
 
-$ sign_Place = "sign_Place";
+$ party1_Sign_Place = "sign_Place";
+
+$ party2_Sign_Place = "sign_Place";
 
 $ sign_Date = "sign_Date";
 
@@ -88,7 +90,8 @@ $ content = [./NDAMutualFR.cmacc] => {
     "confid_Duration" : confid_Duration,
     "confid_Law" : confid_Law,
     "confid_Jurisdiction" : confid_Jurisdiction,
-    "sign_Place" : sign_Place,
+    "party1_Sign_Place" : party1_Sign_Place,
+    "party2_Sign_Place" : party2_Sign_Place,
     "sign_Date" : sign_Date
 };
     
