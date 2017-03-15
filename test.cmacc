@@ -1,0 +1,169 @@
+// Parameters
+
+// Description of Party1
+
+$ party1_Full_Name = "party1_Full_Name";
+
+$ party1_Legal_Form = "party1_Legal_Form";
+
+$ party1_Jurisdiction_Origin = "party1_Jurisdiction_Origin";
+
+$ party1_Address_1Line = "party1_Address_1Line";
+
+$ party1_Tax_ID = "party1_Tax_ID";
+
+$ party1_Rep_Name = "party1_Rep_Name";
+
+$ party1_Rep_Title = "party1_Rep_Title";
+
+$ party1_Handle = "party1_Handle";
+
+// Description of Party2
+
+$ party2_Full_Name = "party2_Full_Name";
+
+$ party2_Legal_Form = "party2_Legal_Form";
+
+$ party2_Jurisdiction_Origin = "party2_Jurisdiction_Origin";
+
+$ party2_Address_1Line = "party2_Address_1Line";
+
+$ party2_Tax_ID = "party2_Tax_ID";
+
+$ party2_Rep_Name = "party2_Rep_Name";
+
+$ party2_Rep_Title = "party2_Rep_Title";
+
+$ party2_Handle = "party2_Handl";
+
+$ party2_Expertise = "party2_Expertise";
+
+// Description of the work
+
+$ work_Scope = "work_Scope";
+
+$ work_Creations = "work_Creations";
+
+$ work_Materials = "work_Materials";
+
+$ work_Activities = "work_Activities";
+
+$ confid_Duration = "confid_Duration";
+
+$ confid_Law = "confid_Law";
+
+$ confid_Jurisdiction = "confid_Jurisdiction";
+
+// Signature
+
+$ party1_Sign_Place = "sign_Place";
+
+$ party2_Sign_Place = "sign_Place";
+
+$ sign_Date = "sign_Date";
+
+// end of parameters----------------
+
+
+// Content from other files and related section numbers
+
+$ preambule = [./NDAPreambulePrestataire.cmacc] => {
+    "party1_Full_Name" : party1_Full_Name,
+    "party1_Legal_Form" : party1_Legal_Form,
+    "party1_Jurisdiction_Origin" : party1_Jurisdiction_Origin,
+    "party1_Address_1Line" : party1_Address_1Line,
+    "party1_Tax_ID" : party1_Tax_ID,
+    "party1_Rep_Name" : party1_Rep_Name,
+    "party1_Rep_Title" : party1_Rep_Title,
+    "party1_Handle" : party1_Handle,
+    "party1_Pron" : party1_Pron,
+    "party2_Full_Name" : party2_Full_Name,
+    "party2_Legal_Form" : party2_Legal_Form,
+    "party2_Jurisdiction_Origin" : party2_Jurisdiction_Origin,
+    "party2_Address_1Line" : party2_Address_1Line,
+    "party2_Tax_ID" : party2_Tax_ID,
+    "party2_Rep_Name" : party2_Rep_Name,
+    "party2_Rep_Title" : party2_Rep_Title,
+    "party2_Handle" : party2_Handle,
+    "party2_Pron" : party2_Pron,
+    "party2_Expertise" : party2_Expertise,
+    "work_Scope" : work_Scope,
+    "work_Activities" : work_Activities
+};
+
+$ confid_Xnum = "1";
+
+$ confid_Define = [./ConfidentialityDefinitionFR.cmacc] => {
+    "Xnum" : confid_Xnum
+};
+
+$ engage_Xnum = "2";
+
+$ engage = [./ConfidentialityEngageFR.cmacc] => {
+    "Xnum" : engage_Xnum
+};
+
+$ limits_Xnum = "3";
+
+$ limits = [./ConfidentialityLimitsFR.cmacc] => {
+    "Xnum" : limits_Xnum,
+    "confid_Duration" : confid_Duration
+};
+
+$ except_Xnum = "4";
+
+$ confid_except = [./ConfidentialityExceptFR.cmacc] => {
+    "Xnum" : except_Xnum
+};
+
+$ decompile_Xnum = "5";
+
+$ decompile = [./ConfidentialityDecompileFR.cmacc] => {
+    "Xnum" : decompile_Xnum
+};
+
+$ remedy_Xnum = "6";
+
+$ remedy = [./ConfidentialityRemedyFR.cmacc] => {
+    "Xnum" : remedy_Xnum
+};
+
+$ life_End_Xnum = "7";
+
+$ life_End = [./ConfidentialityLifeEndFR.cmacc] => {
+    "Xnum" : life_End_Xnum
+};
+
+$ intellectual_Property_Xnum = "8";
+
+$ intellectual_Property = [./ConfidentialityIntellectualPropertyFR.cmacc] => {
+    "Xnum" : intellectual_Property_Xnum
+};
+
+$ rights_Xnum = "9";
+
+$ rights = [./ConfidentialityRightsFR.cmacc] => {
+    "Xnum" : rights_Xnum,
+    "work_Creations" : work_Creations,
+    "work_Materials" : work_Materials
+};
+
+$ misc_Xnum = "10";
+
+$ misc_Clauses = [./MiscClausesFR.cmacc] => {
+    "Xnum" : misc_Xnum
+};
+
+$ law_Xnum = "11";
+
+$ law = [./LawFR.cmacc] => {
+    "Xnum" : law_Xnum,
+    "confid_Jurisdiction" : confid_Jurisdiction,
+    "confid_Law" : confid_Law
+};
+
+// Document ----------------------------------------
+
+ACCORD DE CONFIDENTIALITÉ ET DE NON DIVULGATION
+
+{{preambule}}

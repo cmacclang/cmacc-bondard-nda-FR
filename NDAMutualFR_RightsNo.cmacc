@@ -18,6 +18,8 @@ $ party1_Rep_Title = "party1_Rep_Title";
 
 $ party1_Handle = "party1_Handle";
 
+$ party1_Pron = [./_pron_Elle.cmacc];
+
 // Description of Party2
 
 $ party2_Full_Name = "party2_Full_Name";
@@ -35,6 +37,8 @@ $ party2_Rep_Name = "party2_Rep_Name";
 $ party2_Rep_Title = "party2_Rep_Title";
 
 $ party2_Handle = "party2_Handl";
+
+$ party2_Pron = [./_pron_Lui.cmacc];
 
 $ party2_Expertise = "party2_Expertise";
 
@@ -66,6 +70,30 @@ $ sign_Date = "sign_Date";
 
 
 // Content from other files and related section numbers
+
+$ preambule = [./NDAPreambulePrestataire.cmacc] => {
+    "party1_Full_Name" : party1_Full_Name,
+    "party1_Legal_Form" : party1_Legal_Form,
+    "party1_Jurisdiction_Origin" : party1_Jurisdiction_Origin,
+    "party1_Address_1Line" : party1_Address_1Line,
+    "party1_Tax_ID" : party1_Tax_ID,
+    "party1_Rep_Name" : party1_Rep_Name,
+    "party1_Rep_Title" : party1_Rep_Title,
+    "party1_Handle" : party1_Handle,
+    "party1_Pron" : party1_Pron,
+    "party2_Full_Name" : party2_Full_Name,
+    "party2_Legal_Form" : party2_Legal_Form,
+    "party2_Jurisdiction_Origin" : party2_Jurisdiction_Origin,
+    "party2_Address_1Line" : party2_Address_1Line,
+    "party2_Tax_ID" : party2_Tax_ID,
+    "party2_Rep_Name" : party2_Rep_Name,
+    "party2_Rep_Title" : party2_Rep_Title,
+    "party2_Handle" : party2_Handle,
+    "party2_Pron" : party2_Pron,
+    "party2_Expertise" : party2_Expertise,
+    "work_Scope" : work_Scope,
+    "work_Activities" : work_Activities
+};
 
 $ confid_Xnum = "1";
 
@@ -141,22 +169,8 @@ $ law = [./LawFR.cmacc] => {
 // Document ----------------------------------------
 
 ACCORD DE CONFIDENTIALITÉ ET DE NON DIVULGATION
-(client – bilatéral)
 
-ENTRE :
-{{party1_Full_Name}}, une société {{party1_Legal_Form}} de droit {{party1_Jurisdiction_Origin}}, ayant son siège social {{party1_Address_1Line}}, numéro de TVA intracommunautaire No {{party1_Tax_ID}}, représentée à l’effet et pour les besoins des présentes par {{party1_Rep_Name}} intervenant en sa qualité de {{party1_Rep_Title}} (ci-après {{party1_Handle}}) ;
-
-ET :
-
-{{party2_Full_Name}}, une société {{party2_Legal_Form}} de droit {{party2_Jurisdiction_Origin}}, ayant son siège social {{party2_Address_1Line}}, numéro de TVA intracommunautaire No {{party2_Tax_ID}}, représentée à l’effet et pour les besoins des présentes par {{party2_Rep_Name}} intervenant en sa qualité de {{party2_Rep_Title}} (ci-après {{party2_Handle}}) ;
-
-La Société et le Prestataire seront conjointement dénommées les « Parties » ou séparément la « Partie ».
-
-Le Prestataire est une société spécialisée dans {{party2_Expertise}}. A ce titre, le Prestataire est propriétaire d’informations qui sont de nature confidentielles et qui lui appartiennent en propre (ci-après les « Éléments Confidentiels »).
-
-La Société envisage de confier au Prestataire {{work_Scope}}; elle est également propriétaire d’informations qui sont de nature confidentielles et qui lui appartiennent en propre (ci-après également les « Éléments Confidentiels »).
-
-Le présent document (ci-après « l’Accord ») a pour objet de conserver le caractère confidentiel des éléments communiqués par chacune des Parties, sans exclusivité, à l’autre Partie à l’occasion de {{work_Activities}}.
+{{preambule}}
 
 {{confid_Define}}
 
@@ -174,8 +188,6 @@ Le présent document (ci-après « l’Accord ») a pour objet de conserver le c
 
 {{intellectual_Property}}
 
-{{rights}}
-
 {{misc_Clauses}}
 
 {{law}}
@@ -184,4 +196,5 @@ Fait à {{party1_Sign_Place}} et à {{party2_Sign_Place}}, le {{sign_Date}}
 
 (Nom, prénom, adresse, qualité et signature précédée de la mention manuscrite « lu et approuvé »)
 
-Pour le Prestataire,	Pour la Société,
+Pour 
+{{party1_Pron.LaLe}} {{party1_Handle}},	Pour {{party2_Pron.LaLe}} {{party2_Handle}},

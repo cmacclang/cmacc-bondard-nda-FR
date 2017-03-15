@@ -18,6 +18,8 @@ $ party1_Rep_Title = "party1_Rep_Title";
 
 $ party1_Handle = "party1_Handle";
 
+$ party1_Pron = [./_pron_Elle.cmacc];
+
 // Description of Party2
 
 $ party2_Full_Name = "party2_Full_Name";
@@ -35,6 +37,8 @@ $ party2_Rep_Name = "party2_Rep_Name";
 $ party2_Rep_Title = "party2_Rep_Title";
 
 $ party2_Handle = "party2_Handle";
+
+$ party2_Pron = [./_pron_Lui.cmacc];
 
 $ party2_Expertise = "party2_Expertise";
 
@@ -65,7 +69,7 @@ $ sign_Date = "sign_Date";
 
 // Template utilisé
 
-$ content = [./NDAMutualFR.cmacc] => {
+$ content = [./NDAMutualFR_RightsYes.cmacc] => {
     "party1_Full_Name" : party1_Full_Name,
     "party1_Legal_Form" : party1_Legal_Form,
     "party1_Jurisdiction_Origin" : party1_Jurisdiction_Origin,
@@ -74,6 +78,7 @@ $ content = [./NDAMutualFR.cmacc] => {
     "party1_Rep_Name" : party1_Rep_Name,
     "party1_Rep_Title" : party1_Rep_Title,
     "party1_Handle" : party1_Handle,
+    "party1_Pron" : party1_Pron,
     "party2_Full_Name" : party2_Full_Name,
     "party2_Legal_Form" : party2_Legal_Form,
     "party2_Jurisdiction_Origin" : party2_Jurisdiction_Origin,
@@ -82,11 +87,12 @@ $ content = [./NDAMutualFR.cmacc] => {
     "party2_Rep_Name" : party2_Rep_Name,
     "party2_Rep_Title" : party2_Rep_Title,
     "party2_Handle" : party2_Handle,
+    "party2_Pron" : party2_Pron,
     "party2_Expertise" : party2_Expertise,
     "work_Scope" : work_Scope,
+    "work_Activities" : work_Activities,
     "work_Creations" : work_Creations,
     "work_Materials" : work_Materials,
-    "work_Activities" : work_Activities,
     "confid_Duration" : confid_Duration,
     "confid_Law" : confid_Law,
     "confid_Jurisdiction" : confid_Jurisdiction,
