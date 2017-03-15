@@ -1,4 +1,11 @@
-// Parametres
+// Preambule generique pour un accord. La description de la relation envisagee est definie dans un fichier ObjetXXX.cmacc
+
+// --- Credits ---
+// Original text from Cabinet Bondard
+// Adapted to Cmacc format by Marc Dangeard
+// ---------------
+
+// Parameters
 
 // Party 1
 

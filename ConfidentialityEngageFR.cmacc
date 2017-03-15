@@ -1,5 +1,16 @@
+// Description de l'engagement des parties
+
+// --- Credits ---
+// Original text from Cabinet Bondard
+// Adapted to Cmacc format by Marc Dangeard
+// ---------------
+
+// Parameters
+
 // This section number
 $ Xnum = "Xnum";
+
+// Document
 
 {{Xnum}}.Chacune des Parties s’engage irrévocablement envers l’autre Partie à assurer la plus stricte et absolue confidentialité au sujet de l’existence et du contenu des Éléments Confidentiels de l’autre Partie, même si celle-ci n’est pas expressément précisée sur lesdits Eléments Confidentiels ou à l’occasion de leur transmission, que ces Éléments Confidentiels émanent directement ou indirectement de l’autre Partie, avec ou sans son autorisation expresse ou implicite, de quelque manière que ce soit, en particulier par la remise d’un support tangible ou par une communication verbale ou de toute autre manière intangible, et que la Partie dépositaire ait conservé ou non les supports qui lui ont éventuellement été remis.
 Cette obligation de confidentialité et de non-divulgation couvre bien évidemment toute discussion de nature privée, mais également les réseaux sociaux ou professionnels, ainsi que tout groupement généralement quelconque, que l’accès audit groupe soit sécurisé ou non, limité ou non.

@@ -1,7 +1,18 @@
+// Definition des limites de l'accord (territoire, limite dans le temps etc...)
+
+// --- Credits ---
+// Original text from Cabinet Bondard
+// Adapted to Cmacc format by Marc Dangeard
+// ---------------
+
+// Parameters
+
 // This section number
 $ Xnum = "Xnum";
 
 $ confid_Duration = "confid_Duration";
+
+// Document
 
 {{Xnum}}.1.L’obligation de confidentialité et de non-divulgation se poursuit pour {{confid_Duration}} à compter de la signature du présent Accord.
 

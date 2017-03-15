@@ -1,5 +1,16 @@
+// Definition des processus en fin de contrat
+
+// --- Credits ---
+// Original text from Cabinet Bondard
+// Adapted to Cmacc format by Marc Dangeard
+// ---------------
+
+// Parameters
+
 // This section number
 $ Xnum = "Xnum";
+
+// Document
 
 {{Xnum}}.Les supports tangibles remis à une Partie demeurent la pleine et entière propriété de l’autre Partie.  Ils devront tous être restitués à sa première demande et en tout état de cause au plus tard un mois après la fin des négociations ou des relations commerciales entre les Parties, la Partie dépositaire n’étant pas autorisée à en conserver de reproduction quelconque au-delà de ces termes.
 

@@ -1,4 +1,11 @@
-// Parametres
+// Description de la prestation envisagee
+
+// --- Credits ---
+// Original text from Cabinet Bondard
+// Adapted to Cmacc format by Marc Dangeard
+// ---------------
+
+// Parameters
 
 $ party1_Handle = "party1_Handle";
 
